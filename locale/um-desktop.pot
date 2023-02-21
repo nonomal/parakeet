@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-08 02:12+0100\n"
+"POT-Creation-Date: 2023-02-14 21:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,213 +17,364 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: um-desktop/ui/ui.cpp:103
-msgid " a b c"
-msgstr ""
-
-#: um-desktop/dialog/OptionsDialog.cpp:74
+#: src/dialog/OptionsDialog.cpp:96
 #, c-format
 msgid "%s - Options"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:155
+#: src/ui/ui.cpp:254
 msgid "&Cancel"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:37
+#: src/ui/ui.cpp:37
 msgid "&Clear Logs"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:52
+#: src/ui/ui.cpp:52
 msgid "&Decrypt directory..."
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:158
+#: src/ui/ui.cpp:257
 msgid "&OK"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:34
+#: src/ui/ui.cpp:34
 msgid "&Options..."
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:138
+#: src/ui/ui.cpp:184
+msgid "(EncV2) EKey Decryption Key, Stage 1, 16 bytes."
+msgstr ""
+
+#: src/ui/ui.cpp:186
+msgid "(EncV2) EKey Decryption Key, Stage 2, 16 bytes."
+msgstr ""
+
+#: src/ui/ui.cpp:228 src/ui/ui.cpp:237
+msgid ""
+"(deprecated) A pre-calculated Ximalaya Scramble Table.\n"
+"Only used when the Scramble Table Parameter could not derive the correct "
+"table."
+msgstr ""
+
+#: src/ui/ui.cpp:127
+msgid "(v4) File key expansion table (hex)"
+msgstr ""
+
+#: src/ui/ui.cpp:126
+msgid "(v4) Slot key expansion table (hex)"
+msgstr ""
+
+#: src/ui/ui.cpp:222
+msgid ".x2m Content Key."
+msgstr ""
+
+#: src/ui/ui.cpp:231
+msgid ".x3m Content Key."
+msgstr ""
+
+#: src/ui/ui.cpp:178
+msgid "128-Byte long encryption key. Optimized from 256-byte key."
+msgstr ""
+
+#: src/ui/ui.cpp:144
+msgid "A 16-byte decryption key."
+msgstr ""
+
+#: src/ui/ui.cpp:161
+msgid "AES Key used for NCM Audio Content decryption."
+msgstr ""
+
+#: src/ui/ui.cpp:160
+msgid "AES key for NCM content key"
+msgstr ""
+
+#: src/dialog/MainAppFrame.cpp:157
 msgid "All files (*.*)|*"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:124
-msgid "All supported files"
+#: src/dialog/MainAppFrame.cpp:139
+msgid "All known extensions files"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:93
+#: src/dialog/MainAppFrame.cpp:99
 msgid "Config saved. Some config may require restart to work."
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:96
+#: src/dialog/MainAppFrame.cpp:324
+#, c-format
+msgid "Converting from %s to %s: %s"
+msgstr ""
+
+#: src/dialog/MainAppFrame.cpp:103
 msgid "Could not save config."
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:59
+#: src/dialog/MainAppFrame.cpp:72
 msgid "DEBUG Build"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:218
+#: src/dialog/MainAppFrame.cpp:317
 #, c-format
-msgid "Decode OK: %s (%lums)"
+msgid "Decode OK [%s -> %s]: %s (%lums)"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:49
+#: src/ui/ui.cpp:49
 msgid "Decrypt &file..."
 msgstr ""
 
-#: um-desktop/utils/audio_decryptor/AStreamDecryptor.cpp:52
-msgid "Error: Unexpected EOF when reading input."
+#: src/ui/ui.cpp:180
+msgid "EKey derive seed"
 msgstr ""
 
-#: um-desktop/utils/audio_decryptor/AStreamDecryptor.cpp:58
-msgid "Error: cipher reported failure."
+#: src/ui/ui.cpp:181
+msgid "EKey seed, [0 ~ 255] inclusive."
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:222
+#: src/dialog/MainAppFrame.cpp:321
 #, c-format
-msgid "FAIL: %s (%s)"
+msgid "FAIL [%s]: %s (%s)"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:110
+#: src/ui/ui.cpp:115
 msgid "General"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:116
-msgid "KGM Decryption"
+#: src/ui/ui.cpp:105
+msgid "How many thread(s) to process the file queue."
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:128
+#: src/ui/ui.cpp:203
+msgid "Installation ID generated on the initial app startup."
+msgstr ""
+
+#: src/ui/ui.cpp:202
+msgid "Installation UUID"
+msgstr ""
+
+#: src/ui/ui.cpp:201 src/ui/ui.cpp:212
+msgid "Joox"
+msgstr ""
+
+#: src/ui/ui.cpp:123
+msgid "KGM/VPR Decryption"
+msgstr ""
+
+#: src/dialog/MainAppFrame.cpp:141
+msgid "Koox music"
+msgstr ""
+
+#: src/ui/ui.cpp:134
 msgid "Kugou"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:130
-msgid "Kugou music (*.kgm;*.vpr)"
+#: src/dialog/MainAppFrame.cpp:147
+msgid "Kugou music"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:132
-msgid "Kuwo music (*.kwm)"
+#: src/ui/ui.cpp:125
+msgid ""
+"Kugou uses a \"key-slot\" mechanism, where the key is specified by the key-"
+"slot stored in the encrypted file."
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:21
+#: src/ui/ui.cpp:142 src/ui/ui.cpp:151
+msgid "Kuwo"
+msgstr ""
+
+#: src/ui/ui.cpp:143
+msgid "Kuwo decryption table"
+msgstr ""
+
+#: src/dialog/MainAppFrame.cpp:149
+msgid "Kuwo music"
+msgstr ""
+
+#: src/ui/ui.cpp:108
+msgid "Language code. Use \"en\" for English, or zh_CN for Simplified Chinese."
+msgstr ""
+
+#: src/ui/ui.cpp:107
+msgid "Locale Code"
+msgstr ""
+
+#: src/ui/ui.cpp:106
+msgid "Localization"
+msgstr ""
+
+#: src/ui/ui.cpp:21
 msgid "Logs:"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:140
+#: src/ui/ui.cpp:183
+msgid "Mix key 1 (Stage 1 Key; 16 bytes)"
+msgstr ""
+
+#: src/ui/ui.cpp:185
+msgid "Mix key 2 (Stage 2 Key; 16 bytes)"
+msgstr ""
+
+#: src/ui/ui.cpp:159
+msgid "NCM Decryption"
+msgstr ""
+
+#: src/ui/ui.cpp:168
+msgid "Netease"
+msgstr ""
+
+#: src/dialog/MainAppFrame.cpp:151
+msgid "Netease music"
+msgstr ""
+
+#: src/dialog/MainAppFrame.cpp:161
 msgid "Open encrypted music files"
 msgstr ""
 
-#: um-desktop/ui/ui.h:109
+#: src/ui/ui.h:152
 msgid "Options"
 msgstr ""
 
-#: um-desktop/constants.h:1
-msgid "Parakeet Music Decoder"
+#: src/ui/ui.cpp:102 src/ui/ui.cpp:122 src/ui/ui.cpp:141 src/ui/ui.cpp:158
+#: src/ui/ui.cpp:175 src/ui/ui.cpp:200 src/ui/ui.cpp:219
+msgid "Page"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:43
+#: src/ui/ui.h:73
+msgid "Parakeet Desktop"
+msgstr ""
+
+#: src/ui/ui.cpp:43
 msgid "Process"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:225
+#: src/ui/ui.cpp:176
+msgid "QMCv1"
+msgstr ""
+
+#: src/dialog/MainAppFrame.cpp:143
+msgid "QMCv1 files"
+msgstr ""
+
+#: src/ui/ui.cpp:179
+msgid "QMCv2"
+msgstr ""
+
+#: src/ui/ui.cpp:182
+msgid "QMCv2 - EncV2"
+msgstr ""
+
+#: src/dialog/MainAppFrame.cpp:145
+msgid "QMCv2 files"
+msgstr ""
+
+#: src/ui/ui.cpp:193
+msgid "QQ Music"
+msgstr ""
+
+#: src/dialog/MainAppFrame.cpp:314
 #, c-format
-msgid "Processing: %s"
+msgid "Ready [%s -> %s]: %s"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:126
-msgid "QMCv1 files (*.qmcflac;*.qmc)"
+#: src/ui/ui.cpp:204
+msgid "Salt"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:128
-msgid "QMCv2 files (*.mgg;*.mflac)"
+#: src/ui/ui.cpp:205
+msgid ""
+"Salt is a hardcoded sequence of bytes, used to derive the AES decryption key."
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:215
-#, c-format
-msgid "Ready: %s"
+#: src/ui/ui.cpp:124
+msgid "Slot Key 1 (hex; 4 bytes)"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:138
-msgid "Scramble Table (hex; 1024 u16 LE)"
+#: src/ui/ui.cpp:177
+msgid "Static Key (hex; 128 bytes)"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:117
-msgid "Table t1 (hex; 272 bytes)"
+#: src/ui/ui.cpp:224 src/ui/ui.cpp:233
+msgid ""
+"The initial value is used to generate Ximalaya Scramble Table.\n"
+"This value is between 0 and 1, and up to 6 significant figures."
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:118
-msgid "Table t2 (hex; 272 bytes)"
+#: src/ui/ui.cpp:226 src/ui/ui.cpp:235
+msgid ""
+"The step value is used to generate Ximalaya Scramble Table.\n"
+"This value is between 3.57 and 4, and up to 6 significant figures."
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:119
-msgid "Table v2 (hex; 272 bytes)"
-msgstr ""
-
-#: um-desktop/ui/ui.cpp:102
+#: src/ui/ui.cpp:104
 msgid "Thread count"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:101
+#: src/ui/ui.cpp:103
 msgid "Threading"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:232
+#: src/dialog/MainAppFrame.cpp:331
 #, c-format
 msgid "Unknown state (code %d): %s"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:228
+#: src/dialog/MainAppFrame.cpp:327
 #, c-format
 msgid "Unsupported: %s"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:120
-msgid "VPR Decryption"
-msgstr ""
-
-#: um-desktop/ui/ui.cpp:121
-msgid "VPR Key (hex; 17 bytes)"
-msgstr ""
-
-#: um-desktop/ui/ui.cpp:134
+#: src/ui/ui.cpp:220
 msgid "X2M"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:135
-msgid "X2M Content Key (hex; 4 or 32 bytes)"
+#: src/ui/ui.cpp:221
+msgid "X2M Content Key (hex; 4 bytes)"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:136
+#: src/ui/ui.cpp:227
+msgid "X2M Scramble Table (hex; 1024 u16)"
+msgstr ""
+
+#: src/ui/ui.cpp:223
+msgid "X2M Scramble Table Param - Init (0 ~ 1)"
+msgstr ""
+
+#: src/ui/ui.cpp:225
+msgid "X2M Scramble Table Param- Step (3.57 ~ 4)"
+msgstr ""
+
+#: src/ui/ui.cpp:229
 msgid "X3M"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:137
+#: src/ui/ui.cpp:230
 msgid "X3M Content Key (hex; 32 bytes)"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:136
-msgid "Xiami music (*.xm)"
+#: src/ui/ui.cpp:236
+msgid "X3M Scramble Table (hex; 1024 u16)"
 msgstr ""
 
-#: um-desktop/ui/ui.cpp:145
+#: src/ui/ui.cpp:232
+msgid "X3M Scramble Table Param - Init (0 ~ 1)"
+msgstr ""
+
+#: src/ui/ui.cpp:234
+msgid "X3M Scramble Table Param- Step (3.57 ~ 4)"
+msgstr ""
+
+#: src/dialog/MainAppFrame.cpp:155
+msgid "Xiami music"
+msgstr ""
+
+#: src/ui/ui.cpp:244
 msgid "Ximalaya"
 msgstr ""
 
-#: um-desktop/dialog/MainAppFrame.cpp:134
-msgid "Ximalaya audio file (*.x2m; *.x3m)"
+#: src/dialog/MainAppFrame.cpp:153
+msgid "Ximalaya audio file"
 msgstr ""
 
-#: um-desktop/utils/audio_decryptor/QQMusicV2Decryptor.cpp:15
-msgid "could not derive file key from ekey"
-msgstr ""
-
-#: um-desktop/utils/audio_decryptor/QQMusicV2Decryptor.cpp:21
-msgid "key size == 0"
-msgstr ""
-
-#: um-desktop/ui/ui.h:64
-msgid "um Desktop"
+#: src/dialog/MainAppFrame.cpp:372
+msgid "could not open input file"
 msgstr ""

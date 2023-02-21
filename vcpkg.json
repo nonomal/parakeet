@@ -1,18 +1,14 @@
 {
-  "name": "um-desktop",
-  "version-string": "0.1.1-dev",
+  "name": "parakeet",
   "dependencies": [
-    "boost-algorithm",
     "boost-asio",
-    "boost-beast",
+    "boost-chrono",
     "boost-dll",
     "boost-filesystem",
     "boost-system",
     "boost-thread",
-    "cryptopp",
-    "gtest",
-    "rapidjson",
-    "wxwidgets",
-    "zlib"
+    "cppcodec",
+    "nlohmann-json",
+    "wxwidgets"
   ]
 }
